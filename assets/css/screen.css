@@ -8,6 +8,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 
 /* Lib - Local component imports
 /* ---------------------------------------------------------- */
+@import "fonts.css";
 @import "vars.css";
 @import "components/global.css";
 @import "components/ghost.css";
@@ -25,7 +26,7 @@ production stylesheet in assets/built/screen.css using gulp dev
 /* ---------------------------------------------------------- */
 
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: var(--font-sans-serif);
     background: var(--color-bg);
     transition: background 0.3s ease-out;
     transition-delay: 0.25;

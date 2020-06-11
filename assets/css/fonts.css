@@ -1,0 +1,11 @@
+/* Fonts
+/* ---------------------------------------------------------- */
+
+@font-face {font-family: "Canela-Bold";
+    src: url("../fonts/canela-bold.eot"); /* IE9*/
+    src: url("../fonts/canela-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/canela-bold.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/canela-bold.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/canela-bold.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/canela-bold.svg#Canela-Bold") format("svg"); /* iOS 4.1- */
+  }

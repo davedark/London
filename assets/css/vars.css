@@ -12,8 +12,8 @@
     --color-bg: #f8f8f8;
 
     /* Fonts */
-    --font-sans-serif: 'Muli', sans-serif;
-    --font-serif: Georgia, Times, serif;
+    --font-sans-serif: "proxima-nova", sans-serif;
+    --font-serif: "Canela-bold", Georgia, serif;
     --font-mono: Menlo, Courier, monospace;
     --font-light: 100;
     --font-normal: 400;
