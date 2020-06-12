@@ -111,16 +111,19 @@
                 $('body').toggleClass('site-head-open');
             });
         });
-
         // Initiate Swup transitions
         var swup = new Swup({
             plugins: [new SwupHeadPlugin(), new SwupScriptsPlugin()],
+        });
+        document.addEventListener('swup:pageView', event => {
+            $('body,html').scrollTop(0);
         });
         document.addEventListener('swup:contentReplaced', event => {
             initInfiniteScroll(window, document);
             $('body').removeClass('site-head-open');
         });
     </script>
+    
 
 </body>
 </html>
