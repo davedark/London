@@ -1,0 +1,1 @@
+{"version":3,"sources":["overrides.css"],"names":[],"mappings":"AAIA,oBACI,qBACJ,CAEA,SACI,6BACJ","file":"overrides.css","sourcesContent":["/* Overrides\n/* ---------------------------------------------------------- */\n\n\n.site-head-logo img {\n    height: 56px!important;\n}\n\nh1, h2, h3 {\n    font-family: var(--font-serif);\n}"]}
