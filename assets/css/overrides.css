@@ -6,8 +6,16 @@
     height: 56px;
 }
 
+.site-head-left a, .site-head-right a {
+    text-decoration: none;
+}
+
 h1, h2, h3 {
     font-family: var(--font-serif);
+}
+
+.page-head-description {
+    color: color(var(--color-base) l(40%))
 }
 
 @media (max-width: 850px) {
