@@ -1,2 +1,2 @@
-.site-head-logo img{height:56px!important}h1,h2,h3{font-family:var(--font-serif)}
+.site-head-logo img{height:56px}h1,h2,h3{font-family:var(--font-serif)}@media (max-width:850px){.site-head-container{height:56px}.site-head-logo img{height:42px}}
 /*# sourceMappingURL=overrides.css.map */
